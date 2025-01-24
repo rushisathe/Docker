@@ -14,5 +14,24 @@ is open source platform where you can build ship and run any application anywher
 - Docker is not VM 
 - Containers uses kernel on the host's OS
 
+## Module 2- Architecture of Docker
+
+- # componenets 
+1. Client
+   - docker build 
+   - docker pull
+   - docker run 
+2. Docker Host
+   - all request are come to docker daemon
+   - containers and images hai
+3. Registry 
+   - from where we pull images 
+
+- The instructions to create the docker container are stored in the docker file
+- Docker reads this Docker file when you request the build image
+
+### Docker images --> Docker Containers 
+	(using docker file)
+
 
 
