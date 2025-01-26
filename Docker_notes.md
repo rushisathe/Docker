@@ -34,4 +34,37 @@ is open source platform where you can build ship and run any application anywher
 	(using docker file)
 
 
+## Module 3 - Installation
+
+## Module 4 - Docker images and Registry
+
+- when image to container a thin layer of writable is added on top
+- this layer is called container layer
+
+
+## Module 5 - Working with docker container
+
+- docker run do 2 things firstly create a container from image and then start it
+
+` sudo docker run -ti ubuntu:latest /bin/bash`
+
+- -t option for terminal
+- -i option for intractive mode
+
+` sudo docker run -ti -rm ubuntu:latest /bin/bash`
+
+- --rm option will remove container
+
+- we can also set hostname while starting container using 
+` --hostname="rushi" `
+
+### Storage volumes
+- if we want to preserve data then use VOLUMES `-v `
+### container stop rm pause
+
+- we can stop , remove , unpause, the conatines
+` sudo docker pause container_is `
+` sudo docker unpause container_id `
+` sudo docker rm container_id`
+
 
